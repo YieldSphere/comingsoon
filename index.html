@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yield Sphere - Coming Soon</title>
+  <style>
+    /* Reset and full-page setup */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      background: #1b1b2f; /* Dark theme background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      color: #ffffff;
+      padding: 20px;
+      max-width: 800px;
+    }
+
+    .globe {
+      margin: 0 auto 20px;
+      width: 150px;
+      height: 150px;
+      background: url('yield Sphere (1).png') no-repeat center center;
+      background-size: contain;
+      animation: spin 10s linear infinite;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #f39c12; /* Bright orange from the logo */
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .coming-soon {
+      font-size: 1.8rem;
+      background: linear-gradient(90deg, #f39c12, #3498db);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .cta-buttons a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      color: #ffffff;
+      background: #3498db; /* Bright blue from the logo */
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .cta-buttons a:hover {
+      background: #1f78c1;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #cccccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Rotating Globe -->
+    <div class="globe"></div>
+
+    <!-- Heading -->
+    <h1>Yield Sphere</h1>
+
+    <!-- Description -->
+    <p>
+      Unlock the power of decentralized finance with multi-token staking, secure governance, and dynamic yield strategies.  
+      Yield Sphere is shaping the future of financial freedom—built on Core DAO.
+    </p>
+
+    <!-- Coming Soon -->
+    <div class="coming-soon">Coming Soon...</div>
+
+    <!-- Call-to-Action Buttons -->
+    <div class="cta-buttons">
+      <a href="https://twitter.com/yieldsphere" target="_blank">Follow on Twitter</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      © 2024 Yield Sphere. All Rights Reserved.
+    </footer>
+  </div>
+</body>
+</html>
